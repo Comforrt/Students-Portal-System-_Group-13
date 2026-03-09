@@ -1,0 +1,127 @@
+/* General page styling */
+body {
+  font-family: "Segoe UI", Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(
+    135deg,
+    #3f2b96,
+    #a8c0ff
+  ); /* purple-blue gradient */
+  color: #333;
+  font-size: 18px; /* larger base font size */
+}
+
+/* Header and navigation */
+header {
+  background: rgba(0, 0, 0, 0.7); /* consistent dark overlay */
+  padding: 25px;
+  text-align: center;
+  color: white;
+  font-size: 24px; /* larger header text */
+}
+
+nav {
+  margin-top: 10px;
+}
+
+nav a {
+  color: #f0f0f0;
+  margin: 0 20px;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 18px; /* larger nav links */
+}
+
+nav a:hover {
+  color: #ffd700;
+}
+
+/* Main content area */
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 75vh;
+}
+
+/* Expanded card */
+.card {
+  background: white;
+  padding: 50px;
+  border-radius: 12px;
+  box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.25);
+  width: 600px; /* expanded width */
+  text-align: left;
+  font-size: 18px; /* larger text inside card */
+}
+
+.card h2 {
+  text-align: center;
+  margin-bottom: 25px;
+  color: #3f2b96;
+  font-size: 26px; /* bigger heading */
+}
+
+.card h3 {
+  margin-top: 20px;
+  color: #3f2b96;
+  font-size: 22px; /* bigger section headings */
+}
+
+label {
+  display: block;
+  margin-top: 12px;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="file"] {
+  width: 100%;
+  padding: 12px;
+  margin-top: 6px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 16px;
+}
+
+button {
+  margin-top: 20px;
+  width: 100%;
+  padding: 14px;
+  background: #3f2b96;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 18px; /* larger button text */
+}
+
+button:hover {
+  background: #2c1f6b;
+}
+
+/* Dashboard styling */
+.dashboard-info {
+  line-height: 1.8;
+  font-size: 18px;
+}
+
+.dashboard-info img {
+  display: block;
+  margin: 20px auto;
+  border-radius: 50%;
+  border: 4px solid #3f2b96;
+}
+
+/* Footer (same color as header) */
+footer {
+  background: rgba(0, 0, 0, 0.7);
+  color: white;
+  text-align: center;
+  padding: 15px;
+  font-size: 18px;
+}
